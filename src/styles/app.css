@@ -1,0 +1,42 @@
+html, body, #root {
+  margin: 0;
+  padding: 0 auto;
+}
+
+:root {
+  /* --primary-color: #302AE6; */
+  /* --secondary-color: #536390; */
+  --font-color: #e1e1ff;
+  --bg-color: #222;
+  --border-color: #e1e1ff;
+  --text-font-size: 14px;
+
+  --title-font-size: 18px;
+  --title-font-weight: 600;
+
+  --pagebar-height: 35px;
+
+  /* PADDINGS */
+  --responsive-padding: 0.2rem;
+
+  /* MARGINS */
+  --responsive-margin: 2rem;
+
+  /* BORDERS */
+  --image-border-color: red;
+  --pagebar-border-color: #fff;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--font-color);
+  overflow-x: hidden;
+}
+
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 100vw;
+  max-width: 100%;
+}

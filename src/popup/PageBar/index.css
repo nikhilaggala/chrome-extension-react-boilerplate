@@ -1,0 +1,23 @@
+.container {
+  border: var(--border-color);
+  height: var(--pagebar-height);
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--pagebar-border-color);
+  padding: var(--responsive-padding)
+}
+
+.logo {
+  height: 25px;
+  width: 25px;
+}
+
+.title {
+  font-size: var(--title-font-size);
+  letter-spacing: 1px;
+  font-weight: var(--title-font-weight);
+  margin-left: 4px;
+}

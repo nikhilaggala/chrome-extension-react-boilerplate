@@ -1,0 +1,26 @@
+{
+  "name": "readwynk",
+  "version": "1.0",
+  "description": "Read what you need to know",
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*",
+    "storage",
+    "activeTab"
+  ],
+  "icons": {
+    "16": "images/rw-logo-128px.png",
+    "48": "images/rw-logo-128px.png",
+    "128": "images/rw-logo-128px.png"
+  },
+  "background": {
+    "scripts": ["dist/background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": "images/rw-logo-128px.png",
+    "default_popup": "index.html"
+  },
+  "manifest_version": 2
+}

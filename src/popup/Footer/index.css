@@ -6,4 +6,23 @@
   border-top: 1px solid var(--border-color);
   padding: 1.4rem;
   bottom: 0;
+  height: var(--pagebar-height);
+  align-items: center;
+}
+
+.profileContainer {
+  display: flex;
+  align-items: center;
+}
+
+.avatarClass {
+  border-radius: 100px;
+  height: 30px;
+  width: 30px;
+  border: 1px solid var(--border-color);
+}
+
+.username {
+  font-size: var(--text-font-size);
+  padding-left: 10px;
 }

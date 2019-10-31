@@ -1,0 +1,9 @@
+.container {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  border-top: 1px solid var(--border-color);
+  padding: 1.4rem;
+  bottom: 0;
+}

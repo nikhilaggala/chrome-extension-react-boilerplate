@@ -3,11 +3,16 @@
   height: var(--pagebar-height);
   position: fixed;
   width: 100%;
+  box-sizing: border-box;
   display: flex;
   align-items: center;
-  justify-content: center;
-  border: 1px solid var(--pagebar-border-color);
-  padding: var(--responsive-padding)
+  justify-content: space-between;
+  border-bottom: 1px solid var(--border-color);
+  padding: 1.4rem;
+}
+
+.logoContainer {
+  display: flex;
 }
 
 .logo {
@@ -20,4 +25,8 @@
   letter-spacing: 1px;
   font-weight: var(--title-font-weight);
   margin-left: 4px;
+}
+
+.toggleSwitch {
+  border: 1px solid var(--border-color);
 }

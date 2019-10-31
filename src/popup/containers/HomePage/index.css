@@ -1,6 +1,19 @@
 .pageContainer {
   display: flex;
   width: 100%;
-  border: 1px solid red;
-  margin-top: 42px;
+  box-sizing: border-box;
+  margin-top: 48px;
+  padding: 0.8rem;
+}
+
+.goToList {
+  width: 100%;
+  font-size: var(--text-font-size);
+  border: 1px solid var(--border-color);
+  padding: var(--button-padding);
+  cursor: pointer;
+}
+
+.goToList:hover {
+  border: 1px solid var(--hovered-border-color);
 }

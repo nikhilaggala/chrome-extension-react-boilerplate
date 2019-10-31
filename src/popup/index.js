@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 
 import AppRoot from './AppRoot';
 import PageBar from './PageBar';
+import Footer from './Footer';
 
 import classes from '../styles/app.css'
 
@@ -13,10 +14,10 @@ const render = (Component) => {
     <div className={classes.appContainer}>
       <PageBar />
       <Component />
+      <Footer />
     </div>,
     document.getElementById('app-root')
   );
 }
 
 render(AppRoot)
-

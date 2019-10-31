@@ -49,15 +49,10 @@ export default class HomePage extends Component {
     );
   }
 
-  renderLogoutContainer = () => {
-
-  }
-
   render() {
     return (
       <div className={classes.pageContainer}>
         {this.renderGoToListBtn()}
-        {this.renderLogoutContainer()}
       </div>
     );
   }
